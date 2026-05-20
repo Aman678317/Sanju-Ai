@@ -1,9 +1,9 @@
-2026-05-20 21:21:14,381 INFO Job start timestamp.
-2026-05-20 21:21:14,384 INFO Config loaded and validated.
-2026-05-20 21:21:14,384 INFO Runtime config: seed=42 window=5 version=v1
-2026-05-20 21:21:14,385 INFO Deterministic seed set: 42
-2026-05-20 21:21:14,402 INFO Rows loaded: 20
-2026-05-20 21:21:14,402 INFO Rolling mean step started.
-2026-05-20 21:21:14,403 INFO Signal generation step started.
-2026-05-20 21:21:14,405 INFO Metrics summary: {'version': 'v1', 'rows_processed': 20, 'metric': 'signal_rate', 'value': 0.9375, 'latency_ms': 23, 'seed': 42, 'status': 'success'}
-2026-05-20 21:21:14,405 INFO Job end status: success
+2026-05-20 21:55:15,867 INFO Job start timestamp.
+2026-05-20 21:55:15,872 INFO Config loaded and validated.
+2026-05-20 21:55:15,872 INFO Runtime config: seed=42 window=5 version=v1
+2026-05-20 21:55:15,873 INFO Deterministic seed set: 42
+2026-05-20 21:55:15,897 INFO Rows loaded: 20
+2026-05-20 21:55:15,898 INFO Rolling mean step started.
+2026-05-20 21:55:15,900 INFO Signal generation step started.
+2026-05-20 21:55:15,902 INFO Metrics summary: {'version': 'v1', 'rows_processed': 20, 'metric': 'signal_rate', 'value': 0.9375, 'latency_ms': 35, 'seed': 42, 'status': 'success'}
+2026-05-20 21:55:15,902 INFO Job end status: success
