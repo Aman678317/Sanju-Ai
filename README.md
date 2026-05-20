@@ -93,6 +93,22 @@ docker run --rm mlops-task
 
 The container includes `data.csv` and `config.yaml`, runs the batch job, prints final metrics JSON to stdout, and exits with code `0` on success.
 
+## Vercel deployment
+
+This repository includes `app.py`, a small Flask entrypoint for Vercel. The original assessment CLI remains in `run.py`; `app.py` only exposes the same calculation as HTTP JSON so Vercel can deploy the repository.
+
+Available routes:
+
+- `/`: project summary plus current metrics
+- `/metrics`: metrics JSON only
+- `/health`: health check
+
+In Vercel, use:
+
+- Framework Preset: Python
+- Root Directory: `./`
+- Branch: `main`
+
 ## GitHub Actions
 
 The repository includes a CI workflow that installs dependencies and runs the required CLI on every push and pull request. This gives evaluators a direct proof that the task runs successfully from GitHub.
